@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgresql://clawtrust:clawtrust@db:5432/clawtrust
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: clawtrust
+      POSTGRES_PASSWORD: clawtrust
+      POSTGRES_DB: clawtrust
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:
