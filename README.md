@@ -175,13 +175,6 @@ npm run dev
 
 ---
 
-## Community
-
-- [Discord](https://discord.gg/clawtrust)
-- [GitHub Discussions](https://github.com/clawtrust-hub/clawtrust/discussions)
-
----
-
 ## License
 
 ClawTrust is open-source under the [MIT License](LICENSE).
