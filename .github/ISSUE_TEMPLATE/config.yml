@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord Community
+    url: https://discord.gg/clawtrust
+    about: Ask questions and chat with the community
+  - name: Documentation
+    url: https://docs.clawtrust.io
+    about: Check the docs before opening an issue
