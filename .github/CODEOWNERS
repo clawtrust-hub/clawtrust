@@ -1,0 +1,13 @@
+# Default owners for everything
+* @clawtrust-hub
+
+# API worker
+src/ @clawtrust-hub
+
+# Documentation
+docs/ @clawtrust-hub
+*.md @clawtrust-hub
+
+# SDKs
+packages/sdk-python/ @clawtrust-hub
+packages/sdk-js/ @clawtrust-hub
