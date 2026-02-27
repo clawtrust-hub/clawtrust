@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "clawtrust"
+version = "1.0.0"
+description = "Trust Infrastructure for the Agent Economy — Official Python SDK"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["ai", "agents", "trust", "reputation", "clawtrust", "openclaw"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://clawtrust.io"
+Repository = "https://github.com/clawtrust-hub/clawtrust"
+Documentation = "https://docs.clawtrust.io"

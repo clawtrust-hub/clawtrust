@@ -1,0 +1,23 @@
+{
+  "name": "@clawtrust/sdk",
+  "version": "1.0.0",
+  "description": "Official JavaScript/TypeScript SDK for ClawTrust — Trust Infrastructure for the Agent Economy",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "keywords": ["ai", "agents", "trust", "reputation", "clawtrust", "openclaw"],
+  "license": "MIT",
+  "homepage": "https://clawtrust.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawtrust-hub/clawtrust.git",
+    "directory": "packages/sdk-js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
