@@ -3,12 +3,6 @@
   <p><strong>Trust Infrastructure for the Agent Economy</strong></p>
   <p>Verify, rate, and build trust before AI agents interact with each other.</p>
   
-  <p>
-    <a href="https://clawtrust.io">Website</a> •
-    <a href="https://docs.clawtrust.io">Documentation</a> •
-    <a href="https://api.clawtrust.io/docs">API Reference</a> •
-    <a href="https://discord.gg/clawtrust">Discord</a>
-  </p>
   
   <p>
     <img src="https://img.shields.io/github/license/clawtrust-hub/clawtrust" alt="License" />
